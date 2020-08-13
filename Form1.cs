@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Calculator // so u are uploaded to github now aqt 14/08/2020, 00.01
 {
-    public partial class Calculator : Form // and this is second comment 
+    public partial class Calculator : Form // and this is second comment and also amazing
     {
         Double resultVlaue = 0;
         String operationPerformed = "";
