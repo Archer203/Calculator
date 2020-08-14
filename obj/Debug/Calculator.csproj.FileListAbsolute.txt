@@ -13,3 +13,12 @@ C:\Users\LuciferX\documents\visual studio 2012\Projects\Calculator\Calculator\ob
 E:\DocumentZ\Visual Studio 2012\Projects\Calculator\Calculator\bin\Debug\Calculator.exe.config
 E:\DocumentZ\Visual Studio 2012\Projects\Calculator\Calculator\obj\Debug\Calculator.exe
 E:\DocumentZ\Visual Studio 2012\Projects\Calculator\Calculator\obj\Debug\Calculator.pdb
+E:\DocumentZ\Visual Studio 2012\Projects\Calculator\Calculator\bin\Debug\Calculator.exe
+E:\DocumentZ\Visual Studio 2012\Projects\Calculator\Calculator\bin\Debug\Calculator.pdb
+E:\DocumentZ\Visual Studio 2012\Projects\Calculator\Calculator\bin\Debug\en-US\Calculator.resources.dll
+E:\DocumentZ\Visual Studio 2012\Projects\Calculator\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+E:\DocumentZ\Visual Studio 2012\Projects\Calculator\Calculator\obj\Debug\Calculator.Calculator.resources
+E:\DocumentZ\Visual Studio 2012\Projects\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+E:\DocumentZ\Visual Studio 2012\Projects\Calculator\Calculator\obj\Debug\Calculator.Calculator.en-US.resources
+E:\DocumentZ\Visual Studio 2012\Projects\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
+E:\DocumentZ\Visual Studio 2012\Projects\Calculator\Calculator\obj\Debug\en-US\Calculator.resources.dll

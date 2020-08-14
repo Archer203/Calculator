@@ -14,7 +14,7 @@ namespace Calculator // so u are uploaded to github now aqt 14/08/2020, 00.01
     {
         Double resultVlaue = 0;
         String operationPerformed = "";
-
+        bool isOperationPerformed = false;
 
         public Calculator()
         {
@@ -97,6 +97,7 @@ namespace Calculator // so u are uploaded to github now aqt 14/08/2020, 00.01
         private void button_Click(object sender, EventArgs e) //sender is a object name of this method
         {
             Button button = (Button)sender; // create button object and cast sender object to it, so sender object parameter could have new value
+            isOperationPerformed = false;
             if (textBoxResult.Text == "0") {  //usuallt text box default value is "0"
 
                 textBoxResult.Clear();//clear all text is textbox using .Clear() function
@@ -104,6 +105,7 @@ namespace Calculator // so u are uploaded to github now aqt 14/08/2020, 00.01
 
             textBoxResult.Text = textBoxResult.Text + button.Text; //text of buttons added to textbox 
             label1.Text = textBoxResult.Text;
+          
                 //Application.Exit();
             
         }
@@ -113,7 +115,7 @@ namespace Calculator // so u are uploaded to github now aqt 14/08/2020, 00.01
         {
 
             Button button = (Button)sender; //sender object cast into a button variable 
-           
+            isOperationPerformed = true;
             operationPerformed = button.Text; //button text of operator"s" assigned to 
            
             resultVlaue = Double.Parse(textBoxResult.Text); //string value of button into double value
