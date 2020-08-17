@@ -101,11 +101,20 @@ namespace Calculator // so u are uploaded to github now aqt 14/08/2020, 00.01
             if (textBoxResult.Text == "0") {  //usuallt text box default value is "0"
 
                 textBoxResult.Clear();//clear all text is textbox using .Clear() function
-                } 
+                }
 
-            textBoxResult.Text = textBoxResult.Text + button.Text; //text of buttons added to textbox 
-            label1.Text = textBoxResult.Text;
+            if (button.Text = ".") { 
+                if(textBoxResult.Text.Contains("."))
+                    textBoxResult.Text = textBoxResult.Text + button.Text; //text of buttons added to textbox 
+                label1.Text = textBoxResult.Text;
+            } else {
+                textBoxResult.Text = textBoxResult.Text + button.Text; //text of buttons added to textbox 
+                
+                label1.Text = textBoxResult.Text;
           
+            }; //using contains() method 
+
+            
                 //Application.Exit();
             
         }
